@@ -1,0 +1,135 @@
+.background {
+  background:url(../img/background.png) no-repeat;
+  width: 1215px;
+  height: 1064px;
+  margin-left: 10%;
+  font-family: 'HelveticaNeueCyr';
+  position: relative;
+}
+/* Header */
+.header {
+  background: url(../img/header.png) no-repeat;
+  width: 1215px;
+  height: 36px;
+  margin-left: 10%;
+  position: relative;
+  font-size: 13px;
+}
+.menu a {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  color: #53a4dd;
+  margin: 13px 15px;
+  font-family: 'HelveticaNeueCyr';
+}
+.layer {
+  background:url(../img/menu_layer.png) no-repeat;
+  width: 70px;
+  height: 36px;
+  float: right;
+  /* padding-left: 6px; */
+  color: white;
+}
+.layer a {
+  color: white;
+  text-align: center;
+}
+.ofertas img {
+  float: left;
+  margin-top: -8px;
+  margin-right: 12px;
+}
+.ofertas a {
+  margin: 13px;
+  color: white;
+}
+.ola {
+  background:url(../img/ola.png) no-repeat;
+  width: 192px;
+  height: 25px;
+  float: right;
+  color: white;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 13px;
+  padding-top: 10px;
+  margin-left: 5px;
+  padding-left: 15px;
+}
+.ola a {
+  color: white;
+}
+/* Header */
+/* Content */
+.input {
+  background: url(../img/input.png) no-repeat;
+  position: absolute;
+  top: 215px;
+  left: 350px;
+  width: 562px;
+  height: 613px;
+}
+.input-header {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  margin: 22px;
+}
+.facebook {
+  margin-top: 45px;
+  margin-left: 143px;
+}
+.ou {
+  margin-top: 30px;
+  margin-left: 143px;
+}
+.data {
+  margin-top: 15px;
+}
+input {
+  margin-top: 15px;
+  margin-left: 141px;
+  width: 256px;
+  height: 35px;
+  padding-left: 20px;
+  background-color: rgba(16,16,16,0.5);
+  border: none;
+  color: white;
+}
+input:focus {
+  box-shadow: 0px 0px 3em #4b87b2;
+  background-color: #1b5288;
+}
+.check input {
+  margin-top: 25px;
+  margin-left: 143px;
+  width: 13px;
+  height: 12px;
+  font-size: 13px;
+}
+.check input:focus {
+  box-shadow: none;
+}
+.check label {
+  color: #b6b5b4;
+}
+.submit input {
+  background: url(../img/button.png);
+  width: 150px;
+  height: 36px;
+  margin-left: 202px;
+  color: white;
+  padding-left: 0px;
+}
+.submit input:focus {
+  box-shadow: none;
+}
+.text {
+  font-size: 9px;
+  color: #cccccc;
+  margin-top: 17px;
+  text-align: center;
+}
+.text1 {
+  margin-top: 5px;
+}
