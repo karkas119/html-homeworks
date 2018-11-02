@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  margin-left: 5%;
+  background:url(../img/background.png) no-repeat;
+  width: 1280px;
+  height: 1060px;
+  /* position: relative; */
+}
+/* Header */
+.logo {
+  margin-left: 5%;
+  position: absolute;
+  left: 178px;
+  top: 78px;
+  float: left;
+}
+.contact {
+  float: right;
+  margin-right: 163px;
+  margin-top: 50px;
+  color: 5fa5bb;
+}
+.countries {
+  float: right;
+  margin-right: 166px;
+  margin-top: 31px;
+  clear: both;
+}
+.india {
+  margin-right: 19px;
+  float: right;
+}
+.nepal {
+  float: right;
+  margin-right: 19px;
+}
+.tibet {
+  float: right;
+  margin-right: 19px;
+}
+.butan {
+  float: right;
+  margin-right: 14px;
+}
+.sri-lanka {
+  float: right;
+  margin-right: 14px;
+}
+.maldives {
+  float: right;
+}
+.beach {
+  position: relative;
+  float: right;
+  margin-top: 2px;
+  margin-right: 129px;
+  padding-left: 2px;
+}
+/* Header */
+/* Menu */
+
+/* Menu */
+/* Dropdown */
+.menu {
+  background:url(../img/panel2.png) no-repeat;
+  position: absolute;
+  top: 207px;
+  left: 0px;
+  padding-top: 2px;
+  width:1002px;
+
+
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+ul li {
+list-style: none;
+float: left; /* элементы списка делаем блочными и выстраиваем в ряд */
+height: 30px; /* высоту лучше жестко указать, чтобы выпадающее меню появлялось в предсказуемом месте */
+margin: 2px 34px;
+position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя */
+z-index: 1;
+}
+ul li ul {
+display: none; /* скрываем выпадающе меню */
+position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
+width: 171px;
+background:url(../img/panel3.png);
+}
+ul li:hover ul {
+display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
+}
+/* Dropdown */
+
+.container {
+  position: relative;
+  margin-top: 30px;
+}
+.info {
+  text-align: center;
+  position: absolute;
+  top: 453px;
+  left: 151px;
+  width: 210px;
+  height: 573px;
+  background:url(../img/left-block.png);
+}
+.content {
+  position: absolute;
+  top: 455px;
+  left: 360px;
+  width: 580px;
+  /* background-color: red; */
+}
+.news {
+  position: absolute;
+  top: 453px;
+  left: 941px;
+  width: 210px;
+  height: 573px;
+  background:url(../img/right-block.png);
+  text-align: center;
+}
